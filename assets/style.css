@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+:root{
+    --black: #18181d;
+}
+
+body{
+    margin: auto 0;
+}
+
+/* 
+----------------------------------------------------------
+	NAVIGATION BAR
+----------------------------------------------------------
+*/
+
+.nav-wrap{
+    display: flex;
+    margin: 0;
+    padding: 25px 35px;
+}
+
+.brand{
+    margin-left: 30px;
+}
+
+.menu-wrap{
+    margin-left: auto;
+    float: right;
+    margin-right: 30px;
+}
+
+.menu-wrap a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--black);
+    font-family: 'Work Sans', sans-serif;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.menu-wrap a:hover{
+    cursor: pointer;
+}
+
+.sticky{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.bag{
+    padding: 0;
+    margin: 0;
+    width: 4.5%;
+    height: auto;
+}
